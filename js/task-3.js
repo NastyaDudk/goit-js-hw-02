@@ -1,7 +1,7 @@
     
     function checkForSpam(message) {
         
-            return new RegExp('\\bspam\\b|\\bsale\\b', 'i').test(message);
+    return new RegExp('\spam\\b|\sale\\b', 'i').test(message);
     }
         
     

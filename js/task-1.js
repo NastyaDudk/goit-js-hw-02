@@ -1,7 +1,4 @@
-    
-    
-    
-function makeTransaction(quantity, pricePerDroid, customerCredits) {
+  function makeTransaction(quantity, pricePerDroid, customerCredits) {
   let message;
   let totalPrice= pricePerDroid * quantity;
     if (totalPrice > customerCredits)
@@ -13,7 +10,6 @@ function makeTransaction(quantity, pricePerDroid, customerCredits) {
       return message;
 
     }
-
 
 
     console.log(makeTransaction(5, 3000, 23000)); // "You ordered 5 droids worth 15000 credits!"
